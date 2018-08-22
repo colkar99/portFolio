@@ -1,3 +1,3 @@
 class Skill < ApplicationRecord
-	validates_presence_of :title,:percent_utilized,:body,:main_image,:thumb_image
+	validates_presence_of :title,:percent_utilized
 end
