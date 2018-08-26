@@ -19,7 +19,7 @@
        <%= link_to 'Register' , new_user_registration_path %>
        <%= link_to 'Login' , new_user_session_path %>
        <% end %>
-    <%= render "shared/nav" %>      
+    <%= render "shared/nav", location: "top" %>      
     <%= yield %>
     <% if session[:source].present? %>
    <p>Thank for comming fr om <%= session[:source] %></p> 
