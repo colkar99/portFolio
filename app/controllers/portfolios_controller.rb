@@ -3,7 +3,8 @@ class PortfoliosController < ApplicationController
 	layout 'portfolio'
 
 	def index
-		@portfolio_items = Portfolio.all 		
+		@portfolio_items = Portfolio.select_all
+		# @portfolio_items = Portfolio.limited_some(2) 		
 	end
 
 	def angular
