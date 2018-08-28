@@ -14,4 +14,7 @@ module ApplicationHelper
    			content_tag(:p, greeting, class: "session-source") 
   		end 
 	end
+  def copyright_generator
+    ViewToolPortfolio::Renderer.copyright "karthik", "All rights reserved"
+  end
 end
