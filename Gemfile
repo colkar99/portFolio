@@ -65,4 +65,7 @@ gem 'friendly_id', '~> 5.2.0'
 gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
+####This is my very own gem#######
 gem 'view_tool_portfolio', '~> 0.1.0'
+########
+gem 'petergate', '~> 1.8', '>= 1.8.1'
