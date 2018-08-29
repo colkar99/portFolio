@@ -65,4 +65,4 @@ gem 'friendly_id', '~> 5.2.0'
 gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
-gem 'view_tool_portfolio' ,git: "https://github.com/colkar99/Portfolio_view_tool.git"
+gem 'view_tool_portfolio', '~> 0.1.0'
