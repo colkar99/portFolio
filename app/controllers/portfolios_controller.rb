@@ -5,7 +5,7 @@ class PortfoliosController < ApplicationController
 
 
 	def index
-		@portfolio_items = Portfolio.select_all
+		@portfolio_items = Portfolio.by_position
 		# @portfolio_items = Portfolio.limited_some(2) 		
 	end
 
