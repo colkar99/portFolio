@@ -1,4 +1,4 @@
-alert("hi am ther");
+
 /*
  * HTML5Sortable package
  * https://github.com/lukasoppermann/html5sortable
