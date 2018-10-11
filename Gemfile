@@ -68,7 +68,15 @@ gem 'jquery-rails'
 ####This is my very own gem#######
 gem 'view_tool_portfolio', '~> 0.1.0'
 ########
+###this peter gate is used for authorixzation for user restrict
 gem 'petergate', '~> 1.8', '>= 1.8.1'
+####
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+##This below gems are used for image uploads
+gem 'carrierwave', '~> 1.2', '>= 1.2.3'
+gem 'mini_magick', '~> 4.9', '>= 4.9.2'
+gem 'carrierwave-aws', '~> 1.3'
+gem 'dotenv-rails', '~> 2.5'
+######
