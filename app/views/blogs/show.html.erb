@@ -11,4 +11,19 @@
 	 <p>
 	 	<%= @blog.title %>
 	 </p>
+	 <!--Starts of comment forms -->
+	 <% unless current_user.is_a? GuestUser %>
+	 	<%= form_for @comment , url: '#' do |f|%>
+	 		<div class="form-group">
+	 			<%= f.label :content%>
+	 			<%= f.text_area :content,class: 'form-control'%>
+	 		</div>
+	 		<%= f.submit 'Post Comment',class: 'btn btn-warning' %>
+	 	<% end %>
+	 <% end %>
+	 <!--End of comment forms -->
+	 <!--Starts of comments -->
+	 <%= render @blog.comments %>
+	 
+	 <!--End of comments -->
 </div>
