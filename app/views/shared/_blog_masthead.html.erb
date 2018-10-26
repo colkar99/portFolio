@@ -2,8 +2,15 @@
 <div class="blog-header">
   <div class="container">
     <h1 class="blog-title">My Blogs</h1>
-    <p class="lead blog-description"><%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
-. </p>
+    <p class="lead blog-description">
+    	<span>
+    		<%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+    	</span>
+    	<span>
+    		<%= link_to "Topics" , topics_path%>
+    	</span>
+
+ </p>
   </div>
 </div>
 <!-- end of blog header -->
