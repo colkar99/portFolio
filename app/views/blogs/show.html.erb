@@ -7,7 +7,9 @@
 	<p class="">
 		<%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin)%> 
 	</p>
-
+	<p><b>Topic Name:</b>
+		<%= @blog.topic.title %>
+	</p>
 	 <p>
 	 	<%= @blog.title %>
 	 </p>
